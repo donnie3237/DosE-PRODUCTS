@@ -1,0 +1,27 @@
+.Headers{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    .logo{
+        width: 15%;
+        background-color: aliceblue;
+        height: 100%;
+    }
+    .nav{
+        width: 70%;
+        height: 100%;
+        background-color: aqua;
+        div{
+            width: 20%;
+            height: 100%;
+            font-size: 0.7em;
+        }
+    }
+    .git{
+        width: 15%;
+        height: 100%;
+        background-color: blue;
+    }
+}
