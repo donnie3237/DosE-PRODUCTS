@@ -11,11 +11,11 @@ function Headers({}: Props) {
             <a href="">DOSE</a>
         </div>
         <div className="nav flex">
-            <NavLink to='/product'>Product</NavLink>
-            <NavLink to='/js'>JavaScript</NavLink>
-            <NavLink to='/rust'>Rust</NavLink>
-            <NavLink to='/matlab'>Matlab</NavLink>
-            <NavLink to='/autocad'>Autocad</NavLink>
+            <NavLink to='/products' className='flex'>Product</NavLink>
+            <NavLink to='/products/1' className='flex'>JavaScript</NavLink>
+            <NavLink to='/rust' className='flex'>Rust</NavLink>
+            <NavLink to='/matlab' className='flex'>Matlab</NavLink>
+            <NavLink to='/autocad' className='flex'>Autocad</NavLink>
         </div>
         <div className="git"></div>
     </div>
