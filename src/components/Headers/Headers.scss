@@ -67,3 +67,15 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width: 500px) {
+    .Headers{
+        .logo{
+            .img{
+                display: none;
+            }
+            .text{
+                width: 20vw;
+            }
+        }
+    }
+}
