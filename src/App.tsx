@@ -17,6 +17,11 @@ import NodeRed from './components/JavaScript/NodeRed/NodeRed';
 import TFJS from './components/JavaScript/TFJS/TFJS';
 import ExpressJS from './components/JavaScript/ExpressJS/ExpressJS';
 import ElectronJS from './components/JavaScript/ElectronJS/ElectronJS';
+import RusT from './components/RusT/RusT';
+import Tauri from './components/RusT/Tauri/Tauri';
+import Sled from './components/RusT/sled/Sled';
+import Actix from './components/RusT/Actix/Actix';
+import Mosec from './components/RusT/Mosec/Mosec';
 
 function App() {
   return (
@@ -43,6 +48,14 @@ function App() {
             <Route path='solidjs' element={<SolidJS/>}/>
             <Route path='d3js' element={<D3JS/>}/>
             <Route path='chartjs' element={<ChartJS/>}/>
+          </Route>
+          <Route path='/rust' element={<RusT/>}>
+            <Route path='' element={<Tauri/>}/>
+            <Route path='tauri' element={<Tauri/>}/>
+            <Route path='mosec' element={<Mosec/>}/>
+            <Route path='actix' element={<Actix/>}/>
+            <Route path='sled' element={<Sled/>}/>
+            
           </Route>
        </Routes>
        

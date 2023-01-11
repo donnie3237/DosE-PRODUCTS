@@ -5,12 +5,12 @@
     position: relative;
     .side{
         width: 20vw;
-        height: calc(100vh - 61px);
+        height: calc(100vh - 50px);
         display: flex;
         flex-direction: column;
         background-color: rgb(0, 0, 0);
         position: fixed;
-        top: 60px;
+        top: 61px;
         border-right: 1px solid black;
         a{
             width: calc(90%);
@@ -19,6 +19,7 @@
             padding-left: 10%;
             color: black;
             height: 30px;
+            font-size: 0.6em;
             background-color: rgb(239, 239, 239);
             border-bottom:1px solid black ;
             &.active{
@@ -26,6 +27,9 @@
                 color: white;
                 font-weight: 500;
             }
+        }
+        .jsts{
+            background: linear-gradient(to right ,yellow , blue);
         }
     }
     .content{

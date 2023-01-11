@@ -1,6 +1,6 @@
 .Headers{
     width: 100vw;
-    height: 10vh;
+    height: 60px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -8,7 +8,6 @@
     .logo{
         width: 20%;
         background-color: rgb(5, 92, 169);
-
         height: 100%;
         a{
             color: white;
@@ -20,14 +19,22 @@
         height: 100%;
         background-color: aqua;
         a{
-            width: calc(70vw/5);
+            width: calc(70vw/4);
             background-color: black;
             height: 100%;
             font-size: 0.7em;
             text-decoration: none;
             color: white;
             &.active{
-                border-bottom: 2px solid red;
+                border-bottom: 5px solid red;
+            }
+            img{
+                width: 15px;
+                height: 15px;
+            }
+            h2{
+                font-size: 0.9em;
+                margin-left: 5px;
             }
         }
     }
