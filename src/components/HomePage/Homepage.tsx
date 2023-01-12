@@ -12,6 +12,8 @@ function Homepage({}: Props) {
             <NavLink to='dosecrud' className='flex'>DosE-CRUD</NavLink>
             <NavLink to='doseml' className='flex'>DosE-ML</NavLink>
             <NavLink to='doseiot' className='flex'>DOsE-IOT</NavLink>
+            <NavLink to='dosechrome' className='flex'>DosE-CHROME</NavLink>
+            <NavLink to='dosewtd' className='flex'>DosE-WTD</NavLink>
         </div>
         <div className="content">
           <Outlet/>

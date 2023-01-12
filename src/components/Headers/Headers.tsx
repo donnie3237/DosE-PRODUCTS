@@ -2,17 +2,14 @@ import React from 'react'
 import './Headers.scss'
 import {NavLink} from 'react-router-dom'
 
-type Props = {}
-
-function Headers({}: Props) {
+function Headers() {
   function ToGithub(){
     window.open('https://github.com/donnie3237','_blank')
   }
   return (
     <div className="Headers">
         <div className="logo flex">
-          <div className="img flex"><img src={require('./img/logo.jfif')} alt="" /></div>
-          <div className="text flex"><a className='flex' href="">DOSE</a></div>
+            <div className="text flex"><NavLink className='flex' to='/'>DOSE</NavLink></div>
         </div>
         <div className="nav flex">
             <NavLink to='/products' className='flex'>

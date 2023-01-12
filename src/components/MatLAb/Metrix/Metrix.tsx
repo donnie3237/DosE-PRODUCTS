@@ -2,7 +2,12 @@ import React from 'react'
 
 function Metrix() {
   return (
-    <div>Metrix</div>
+    <div className="matlab">
+    <div className="header flex">
+      <h1>Metrix</h1>
+      <img src={require('../img/metrix.png')} alt="" />
+    </div>
+  </div>
   )
 }
 

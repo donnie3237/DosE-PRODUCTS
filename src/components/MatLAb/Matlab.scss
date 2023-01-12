@@ -1,0 +1,19 @@
+.matlab{
+    width: 100%;
+    min-height: 150vh;
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+        border-top: 2px solid rgb(206, 13, 13);
+        h1{
+            font-size: 1em;
+        }
+        img{
+            height: 50%;
+            margin-left: 10px;
+            border-radius: 20%;
+        }
+    }
+}

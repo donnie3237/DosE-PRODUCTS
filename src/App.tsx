@@ -27,6 +27,7 @@ import Elec from './components/MatLAb/Elec/Elec';
 import Metrix from './components/MatLAb/Metrix/Metrix';
 import Vector from './components/MatLAb/Vector/Vector';
 import Statistic from './components/MatLAb/Statistic/Statistic';
+import DosEChrome from './components/HomePage/DosE-CHROME/DosEChrome';
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
              <Route path='dosecrud' element={<DosECRUD/>}/>
              <Route path='doseml' element={<DosEML/>}/>
              <Route path='doseiot' element={<DosEIOT/>}/>
+             <Route path='dosechrome' element={<DosEChrome/>}/>
+             <Route path='dosewtd' element={<DosEIOT/>}/>
           </Route>
           <Route path='/javascript' element={<JavascriptMain/>}>
             <Route path='' element={<ReactJS/>}/>
