@@ -5,12 +5,13 @@
     position: relative;
     .side{
         width: 20vw;
+        border-top: 2px solid red;
         height: calc(100vh - 50px);
         display: flex;
         flex-direction: column;
         background-color: rgb(0, 0, 0);
         position: fixed;
-        top: 60px;
+        top: 59px;
         z-index: 4;
         border-right: 1px solid black;
         a{
@@ -43,6 +44,7 @@
         position:absolute;
         width: calc(80vw - 10px);
         left: calc(20vw + 1px);
-        top: 59.5px;
+        top: 59px;
+        border-top: 2px solid red;
     }
 }
