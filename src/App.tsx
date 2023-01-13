@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import Headers from './components/Headers/Headers';
 import Homepage from './components/HomePage/Homepage';
-import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
+import { HashRouter as Router ,Route , Routes } from 'react-router-dom';
 import DosELIB from './components/HomePage/DosE-LIB/DosELIB';
 import DosECRUD from './components/HomePage/DosE-CRUD/DosECRUD';
 import DosEML from './components/HomePage/DosE-ML/DosEML';
