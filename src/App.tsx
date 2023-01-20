@@ -34,6 +34,7 @@ import PNPM from './components/JavaScript/pnpm/PNPM';
 import Cargo from './components/RusT/Cargo/Cargo';
 import ACAD from './components/HomePage/DosE-ACAD/ACAD';
 import DoseTauri from './components/HomePage/DosE-TAURI/DoseTauri';
+import Err from './components/Err/Err';
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
             <Route path='vector' element={<Vector/>}/>
             <Route path='statistic' element={<Statistic/>}/>
           </Route>
+          <Route path='*' element={<Err/>}/>
        </Routes>
        
     </div>

@@ -2,10 +2,11 @@
     width: calc(100% - 10px);
     height: 100%;
     min-height: 100vh;
-    background-color: rgb(133, 15, 15);
+    background-color: rgb(165, 0, 0);
     border-right: 1px solid white;
     position: relative;
     z-index: 2;
+    color: white;
     div{
         display: flex;
         flex-direction: column;
