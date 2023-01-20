@@ -29,6 +29,11 @@ import Vector from './components/MatLAb/Vector/Vector';
 import Statistic from './components/MatLAb/Statistic/Statistic';
 import DosEChrome from './components/HomePage/DosE-CHROME/DosEChrome';
 import DosEWTD from './components/DosEWTD/DosEWTD';
+import ViteJS from './components/JavaScript/ViteJS/Vite';
+import PNPM from './components/JavaScript/pnpm/PNPM';
+import Cargo from './components/RusT/Cargo/Cargo';
+import ACAD from './components/HomePage/DosE-ACAD/ACAD';
+import DoseTauri from './components/HomePage/DosE-TAURI/DoseTauri';
 
 function App() {
   return (
@@ -55,6 +60,8 @@ function App() {
              <Route path='doseiot' element={<DosEIOT/>}/>
              <Route path='dosechrome' element={<DosEChrome/>}/>
              <Route path='dosewtd' element={<DosEWTD/>}/>
+             <Route path='doseacad' element={<ACAD/>}/>
+             <Route path='dosetauri' element={<DoseTauri/>}/>
           </Route>
           <Route path='/javascript' element={<JavascriptMain/>}>
             <Route path='' element={<ReactJS/>}/>
@@ -66,9 +73,12 @@ function App() {
             <Route path='solidjs' element={<SolidJS/>}/>
             <Route path='d3js' element={<D3JS/>}/>
             <Route path='chartjs' element={<ChartJS/>}/>
+            <Route path='vitejs' element={<ViteJS/>}/>
+            <Route path='pnpm' element={<PNPM/>}/>
           </Route>
           <Route path='/rust' element={<RusT/>}>
-            <Route path='' element={<Tauri/>}/>
+            <Route path='' element={<Cargo/>}/>
+            <Route path='Cargo' element={<Cargo/>}/>
             <Route path='tauri' element={<Tauri/>}/>
             <Route path='mosec' element={<Mosec/>}/>
             <Route path='actix' element={<Actix/>}/>

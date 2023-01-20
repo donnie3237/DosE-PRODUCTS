@@ -1,0 +1,32 @@
+.Acadcontent{
+    width: calc(100% - 10px);
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgb(133, 15, 15);
+    border-right: 1px solid white;
+    position: relative;
+    z-index: 2;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+        h1{
+            :nth-child(1){
+                margin-top: 300px;
+            }
+            margin-left: 5%;
+        }
+        p{
+            margin-left: 10%;
+        }
+    }
+}
+.ttcad{
+    position: sticky;
+    top: 59px;
+    z-index: 3;
+}
+.logo-acad{
+    position: sticky;
+    top: 132px;
+}

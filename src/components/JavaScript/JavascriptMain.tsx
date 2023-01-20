@@ -2,9 +2,7 @@ import React from 'react'
 import { NavLink , Outlet} from 'react-router-dom'
 import './js.scss'
 
-type Props = {}
-
-function JavascriptMain({}: Props) {
+function JavascriptMain() {
   return (
     <div className="homePage">
         <div className="side" id='side'>
@@ -16,6 +14,8 @@ function JavascriptMain({}: Props) {
             <NavLink to='solidjs' className='flex'>SolidJS</NavLink>
             <NavLink to='d3js' className='flex'>D3JS</NavLink>
             <NavLink to='chartjs' className='flex'>ChartJS</NavLink>
+            <NavLink to='vitejs' className='flex'>ViteJS</NavLink>
+            <NavLink to='pnpm' className='flex'>PNPM</NavLink>
         </div>
         <div className="content">
           <Outlet/>

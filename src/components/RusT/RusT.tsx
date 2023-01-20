@@ -6,6 +6,7 @@ function RusT() {
   return (
     <div className="homePage">
         <div className="side" id='side'>
+            <NavLink to='cargo'  className='flex'>Cargo</NavLink>
             <NavLink to='tauri'  className='flex'>Tauri</NavLink>
             <NavLink to='mosec' className='flex'>MosecRS</NavLink>
             <NavLink to='actix' className='flex'>Actix-web</NavLink>
