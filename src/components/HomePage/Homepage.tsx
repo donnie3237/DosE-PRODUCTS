@@ -2,9 +2,7 @@ import React from 'react'
 import { NavLink , Outlet} from 'react-router-dom'
 import './Homepage.scss'
 
-type Props = {}
-
-function Homepage({}: Props) {
+function Homepage() {
   return (
     <div className="homePage">
         <div className="side" id='side'>
