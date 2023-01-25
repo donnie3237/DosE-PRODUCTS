@@ -44,7 +44,7 @@ function App() {
        <Headers/>
        </div>
        <Routes>
-          <Route path='/' element={<Homepage/>}>
+          <Route path='/' element={<Homepage/>} >
             <Route path='/' element={<DosELIB/>}/>
             <Route path='doselib' element={<DosELIB/>}/>
             <Route path='dosecrud' element={<DosECRUD/>}/>
@@ -52,6 +52,8 @@ function App() {
             <Route path='doseiot' element={<DosEIOT/>}/>
             <Route path='dosechrome' element={<DosEChrome/>}/>
             <Route path='dosewtd' element={<DosEWTD/>}/>
+            <Route path='doseacad' element={<ACAD/>}/>
+            <Route path='dosetauri' element={<DoseTauri/>}/>
           </Route>
           <Route path='/products' element={<Homepage/>}>
              <Route path='' element={<DosELIB/>}/>
@@ -95,7 +97,6 @@ function App() {
           </Route>
           <Route path='*' element={<Err/>}/>
        </Routes>
-       
     </div>
     </Router>
   )
