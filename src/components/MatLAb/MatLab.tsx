@@ -6,11 +6,11 @@ function MatLab() {
   return (
     <div className="homePage">
         <div className="side" id='side'>
-            <NavLink to='intro'  className='flex'>introdution</NavLink>
-            <NavLink to='electric' className='flex'>Electric Circuit</NavLink>
-            <NavLink to='metrix' className='flex'>Metrix</NavLink>
-            <NavLink to='vector' className='flex'>Vector</NavLink>
-            <NavLink to='statistic' className='flex'>Statistic</NavLink>
+            <NavLink to='intro'  className='flex'>AutoCad</NavLink>
+            <NavLink to='electric' className='flex'>Matlab</NavLink>
+            <NavLink to='metrix' className='flex'>MongoDB</NavLink>
+            <NavLink to='vector' className='flex'>Git</NavLink>
+            <NavLink to='statistic' className='flex'>Sass</NavLink>
         </div>
         <div className="content">
           <Outlet/>

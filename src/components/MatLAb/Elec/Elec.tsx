@@ -5,7 +5,7 @@ function Elec() {
     <div className="matlab">
     <div className="header flex">
       <h1>Electric Circuit</h1>
-      <img src={require('../img/elec.png')} alt="" />
+      <img src={require('../img/Matlab_Logo.png')} alt="" />
     </div>
   </div>
   )
