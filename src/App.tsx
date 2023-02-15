@@ -35,6 +35,7 @@ import Cargo from './components/RusT/Cargo/Cargo';
 import ACAD from './components/HomePage/DosE-ACAD/ACAD';
 import DoseTauri from './components/HomePage/DosE-TAURI/DoseTauri';
 import Err from './components/Err/Err';
+import Dose3 from './components/HomePage/DosE-DOSE3/Dose3';
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
             <Route path='dosechrome' element={<DosEChrome/>}/>
             <Route path='dosewtd' element={<DosEWTD/>}/>
             <Route path='doseacad' element={<ACAD/>}/>
-            <Route path='dosetauri' element={<DoseTauri/>}/>
+            <Route path='dose3' element={<Dose3/>}/>
           </Route>
           <Route path='/products' element={<Homepage/>}>
              <Route path='' element={<DosELIB/>}/>
@@ -62,9 +63,8 @@ function App() {
              <Route path='doseml' element={<DosEML/>}/>
              <Route path='doseiot' element={<DosEIOT/>}/>
              <Route path='dosechrome' element={<DosEChrome/>}/>
-             <Route path='dosewtd' element={<DosEWTD/>}/>
+             <Route path='dose3' element={<Dose3/>}/>
              <Route path='doseacad' element={<ACAD/>}/>
-             <Route path='dosetauri' element={<DoseTauri/>}/>
           </Route>
           <Route path='/javascript' element={<JavascriptMain/>}>
             <Route path='' element={<ReactJS/>}/>

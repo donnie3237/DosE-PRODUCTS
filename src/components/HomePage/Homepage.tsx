@@ -11,8 +11,7 @@ function Homepage() {
             <NavLink to='doseml' className='flex'>DosE-ML</NavLink>
             <NavLink to='doseiot' className='flex'>DosE-IOT</NavLink>
             <NavLink to='dosechrome' className='flex'>DosE-CHROME</NavLink>
-            <NavLink to='dosewtd' className='flex'>DosE-WTD</NavLink>
-            <NavLink to='dosetauri' className='flex'>DosE-TAURI</NavLink>
+            <NavLink to='dose3' className='flex'>DosE-DOSE3</NavLink>
             <NavLink to='doseacad' className='flex'>DosE-ACAD</NavLink>
         </div>
         <div className="content">
