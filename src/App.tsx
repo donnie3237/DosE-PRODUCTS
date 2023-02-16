@@ -37,6 +37,7 @@ import Git from './components/More/Git/Git';
 import Sass from './components/More/Sass/Sass';
 import Docker from './components/More/Docker/Docker';
 import PostgreSQL from './components/More/PostgreSQL/PostgreSQL';
+import Main from './components/Main/Main';
 
 function App() {
   return (
@@ -46,17 +47,7 @@ function App() {
        <Headers/>
        </div>
        <Routes>
-          <Route path='/' element={<Homepage/>} >
-            <Route path='' element={<DosELIB/>}/>
-            <Route path='doselib' element={<DosELIB/>}/>
-            <Route path='dosecrud' element={<DosECRUD/>}/>
-            <Route path='doseml' element={<DosEML/>}/>
-            <Route path='doseiot' element={<DosEIOT/>}/>
-            <Route path='dosechrome' element={<DosEChrome/>}/>
-            <Route path='dosewtd' element={<DosEWTD/>}/>
-            <Route path='doseacad' element={<ACAD/>}/>
-            <Route path='dose3' element={<Dose3/>}/>
-          </Route>
+          <Route path='/' element={<Main/>} />
           <Route path='/products' element={<Homepage/>}>
              <Route path='' element={<DosELIB/>}/>
              <Route path='doselib' element={<DosELIB/>}/>

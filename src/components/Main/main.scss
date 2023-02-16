@@ -1,0 +1,24 @@
+.main{
+    width: 100%;
+    height: calc(100vh - 62px);
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+    margin-top: 61px;
+    color: white;
+    flex-direction: column;
+    .bar{
+        rotate: 20deg;
+        position: absolute;
+        background-color: red;
+        width: 40vw;
+        height: 200%;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .bar1{
+        left: -20vw;
+    }
+    .bar2{
+        right: -20vw;
+    }
+}
