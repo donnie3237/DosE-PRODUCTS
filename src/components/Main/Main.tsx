@@ -9,11 +9,11 @@ function Main() {
     const bar2 = document.querySelector('.bar2') as HTMLElement
         bar1.style.width = '70vw'
         bar2.style.width = '70vw'
-        bar1.style.transition = 'all 0.5s'
-        bar2.style.transition = 'all 0.5s'
+        bar1.style.transition = 'all 1s'
+        bar2.style.transition = 'all 1s'
         setTimeout(() => {
             Navigate('/products')
-        }, 700);
+        }, 1000);
     }
   return (
     <div className='main flex'>
