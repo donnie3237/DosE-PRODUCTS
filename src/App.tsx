@@ -21,21 +21,22 @@ import Tauri from './components/RusT/Tauri/Tauri';
 import Sled from './components/RusT/sled/Sled';
 import Actix from './components/RusT/Actix/Actix';
 import Mosec from './components/RusT/Mosec/Mosec';
-import MatLab from './components/MatLAb/MatLab';
-import Intro from './components/MatLAb/intro/Intro';
-import Elec from './components/MatLAb/Elec/Elec';
-import Metrix from './components/MatLAb/Metrix/Metrix';
-import Vector from './components/MatLAb/Vector/Vector';
-import Statistic from './components/MatLAb/Statistic/Statistic';
+import MatLab from './components/More/More';
+import Autocad from './components/More/Autocad/Autocad';
+import Elec from './components/More/Elec/Elec';
+import MongoDB from './components/More/MongoDB/MongoDB';
 import DosEChrome from './components/HomePage/DosE-CHROME/DosEChrome';
 import DosEWTD from './components/DosEWTD/DosEWTD';
 import ViteJS from './components/JavaScript/ViteJS/Vite';
 import PNPM from './components/JavaScript/pnpm/PNPM';
 import Cargo from './components/RusT/Cargo/Cargo';
 import ACAD from './components/HomePage/DosE-ACAD/ACAD';
-import DoseTauri from './components/HomePage/DosE-TAURI/DoseTauri';
 import Err from './components/Err/Err';
 import Dose3 from './components/HomePage/DosE-DOSE3/Dose3';
+import Git from './components/More/Git/Git';
+import Sass from './components/More/Sass/Sass';
+import Docker from './components/More/Docker/Docker';
+import PostgreSQL from './components/More/PostgreSQL/PostgreSQL';
 
 function App() {
   return (
@@ -87,13 +88,15 @@ function App() {
             <Route path='actix' element={<Actix/>}/>
             <Route path='sled' element={<Sled/>}/>
           </Route>
-          <Route path='/matlab' element={<MatLab/>}>
-            <Route path='' element={<Intro/>}/>
-            <Route path='intro' element={<Intro/>}/>
+          <Route path='/more' element={<MatLab/>}>
+            <Route path='' element={<Autocad/>}/>
+            <Route path='autocad' element={<Autocad/>}/>
             <Route path='electric' element={<Elec/>}/>
-            <Route path='metrix' element={<Metrix/>}/>
-            <Route path='vector' element={<Vector/>}/>
-            <Route path='statistic' element={<Statistic/>}/>
+            <Route path='mongodb' element={<MongoDB/>}/>
+            <Route path='postgresql' element={<PostgreSQL/>}/>
+            <Route path='git' element={<Git/>}/>
+            <Route path='sass' element={<Sass/>}/>
+            <Route path='docker' element={<Docker/>}/>
           </Route>
           <Route path='*' element={<Err/>}/>
        </Routes>

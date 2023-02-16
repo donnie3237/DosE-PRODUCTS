@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Statistic() {
+function Sass() {
   return (
     <div className="matlab">
     <div className="header flex">
@@ -11,4 +11,4 @@ function Statistic() {
   )
 }
 
-export default Statistic
+export default Sass

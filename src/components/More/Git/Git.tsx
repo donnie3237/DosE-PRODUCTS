@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Vector() {
+function Git() {
   return (
     <div className="matlab">
     <div className="header flex">
@@ -11,4 +11,4 @@ function Vector() {
   )
 }
 
-export default Vector
+export default Git

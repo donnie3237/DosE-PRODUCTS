@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Intro() {
+function Autocad() {
   return (
   <div className="matlab">
     <div className="header flex">
@@ -11,4 +11,4 @@ function Intro() {
   )
 }
 
-export default Intro
+export default Autocad

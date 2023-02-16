@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Metrix() {
+function MongoDB() {
   return (
     <div className="matlab">
     <div className="header flex">
@@ -10,4 +10,4 @@ function Metrix() {
   )
 }
 
-export default Metrix
+export default MongoDB
