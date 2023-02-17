@@ -71,6 +71,7 @@ function Dose3() {
           <img className='box' src={require('./sdk.png')} alt="" />
         </div>
       </div>
+      <div className="req">eiei</div>
     </div>
   )
 }
