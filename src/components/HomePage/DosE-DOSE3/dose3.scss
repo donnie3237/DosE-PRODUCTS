@@ -34,10 +34,6 @@
             margin-left: 5%;
         }
     }
-    .contents{
-        width: 100%;
-        background-color: white;     
-    }
     .topic{
         height: 70px;
         margin-top: 20px;
@@ -51,10 +47,10 @@
     .ins{
         width: calc(80% + 5px);
         margin-top: 10px;
-        font-size: 30px;
+        font-size: 1em;
         height: 30px;
         color: white;
-        margin: 20px 0;
+        margin-top: 30px ;
         font-family: 'Courier New', Courier, monospace;
     }
     .contents2 {
