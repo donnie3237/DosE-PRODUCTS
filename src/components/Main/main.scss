@@ -7,13 +7,25 @@
     margin-top: 61px;
     color: white;
     flex-direction: column;
+    button{
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        background: red;
+        border: 1px solid #ffffff;
+        color: white;
+        &:hover{
+            box-shadow: 0 0 5px red;
+            transition: all 0.5s;
+            width: 170px;
+        }
+    }
     .bar{
         rotate: 20deg;
         position: absolute;
         background-color: red;
         width: 40vw;
         height: 200%;
-        border: 1px solid rgb(0, 0, 0);
     }
     .bar1{
         left: -20vw;
