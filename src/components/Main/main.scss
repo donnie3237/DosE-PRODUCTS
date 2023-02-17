@@ -9,7 +9,7 @@
     flex-direction: column;
     button{
         width: 150px;
-        height: 50px;
+        height: 40px;
         cursor: pointer;
         background: red;
         border: 1px solid #ffffff;
@@ -32,5 +32,30 @@
     }
     .bar2{
         right: -20vw;
+    }
+}
+@media (max-width: 768px) {
+    .main{
+        width: 100%;
+        height: calc(100vh - 62px);
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        position: relative;
+        margin-top: 61px;
+        color: white;
+        flex-direction: column;
+        .bar{
+            rotate: 20deg;
+            position: absolute;
+            background-color: red;
+            width: 200%;
+            height: 40vh;
+        }
+        .bar1{
+            top: -20vh;
+        }
+        .bar2{
+            bottom: -20vh;
+        }
     }
 }
