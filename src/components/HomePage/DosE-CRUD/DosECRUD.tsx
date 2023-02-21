@@ -58,7 +58,7 @@ function DosECRUD() {
             <div className="crop flex">
                 <h1>What is DosE-CRUD ?</h1>
                 <div className="hr"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse saepe ipsam explicabo. Consectetur commodi ut nostrum fugiat nesciunt CRUDero provident inventore veritatis sequi sit ab officia earum eligendi, saepe eveniet? Repellat quasi id accusantium saepe, optio quis minima ducimus unde sequi repellendus consequuntur adipisci corporis quas sapiente sint velit, tempore non, harum laboriosam? Optio soluta quibusdam obcaecati rem aliquam illum nobis consectetur, quae, recusandae laboriosam voluptatem expedita quo, totam repellat facere odio dolorum earum odit ratione suscipit. Eius facilis, iste magnam error iusto CRUDero nihil alias dolores? Consequuntur ipsum error magnam eveniet, ducimus numquam itaque at labore tenetur doloremque sapiente!</p>
+                <p>DosE-CRUD คือ แอพลิดคชั่นที่ทำให้เกิดความง่ายในการจัดการข้อมูล ที่สามารถปรับขนาด และปรับแต่งชนิดข้อมูลได้ ทำให้การดูข้อมูลเชิงลึกออกมาในรูปแบบกราฟ หรือแผนภูมิอื่นๆ และ เพื่อทำความเข้าใจด้านข้อมูล หรือ  statistic และการนำข้อมูลไปต่อยอด หรือ การคาดการณ์เหตุการในอนาคต หรือแนวโน้มต่างๆได้ดียิ่งขึ้น</p>
             </div>
         </div>
         <div className="details2 flex">
@@ -72,7 +72,7 @@ function DosECRUD() {
             <div className="crop flex">
                 <h1>The contents ?</h1>
                 <div className="hr"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse saepe ipsam explicabo. Consectetur commodi ut nostrum fugiat nesciunt CRUDero provident inventore veritatis sequi sit ab officia earum eligendi, saepe eveniet? Repellat quasi id accusantium saepe, optio quis minima ducimus unde sequi repellendus consequuntur adipisci corporis quas sapiente sint velit, tempore non, harum laboriosam? Optio soluta quibusdam obcaecati rem aliquam illum nobis consectetur, quae, recusandae laboriosam voluptatem expedita quo, totam repellat facere odio dolorum earum odit ratione suscipit. Eius facilis, iste magnam error iusto CRUDero nihil alias dolores? Consequuntur ipsum error magnam eveniet, ducimus numquam itaque at labore tenetur doloremque sapiente!</p>
+                <p>ที่นี่เรามีการ เพิ่ม ลบ อัพเดท และ ตรวจสอบข้อมูล นอกจากนี้ยังมีการทำกราฟ หรือแผนภูมิวงกลม แผนภูมิแท่ง ที่มีความยืดหยุ่นสูง เพื่อสร้างข้อมูลดิบที่มีคุณภาพสูง</p>
             </div>
         </div>
     </div>
