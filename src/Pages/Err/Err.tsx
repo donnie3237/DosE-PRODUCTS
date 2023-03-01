@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './err.scss'
+
 function Err() {
   return (
     <div className='err flex'>
