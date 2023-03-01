@@ -36,7 +36,7 @@ import Git from './components/More/Git/Git';
 import Sass from './components/More/Sass/Sass';
 import Docker from './components/More/Docker/Docker';
 import PostgreSQL from './components/More/PostgreSQL/PostgreSQL';
-import Main from './components/Main/Main';
+import Main from './Pages/Main/Main';
 
 function App() {
   return (
