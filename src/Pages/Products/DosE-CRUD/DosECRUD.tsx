@@ -34,6 +34,9 @@ function DosECRUD() {
                 <h1 className='flex'>Desktop</h1>
             </a>
         </div>
+        <div className="Tauri flex">
+            <a className='inTauri' href={require('../Products/DosE-CRUD_1.0.1_x64_en-US.msi')} download='DosE-CRUD_1.0.1_x64_en-US.msi'>Tauri version for Desktop</a>
+        </div>
         <div className="tuto">
             <h1 className='flex'>Mobile</h1>
             <div className="phone flex">
